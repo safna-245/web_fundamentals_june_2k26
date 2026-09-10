@@ -145,7 +145,7 @@ method:DELETE
 
 patients
 
-id patient_name phone_number assigned_doctor department     appointment_date   consultation_fee 
+|id|patient_name|phone_number|assigned_doctor|department|    appointment_date|  consultation_fee| 
   
 1    Anu          9876542319   Dr.Alice      Dermatology      2026-05-01         250.00
 
