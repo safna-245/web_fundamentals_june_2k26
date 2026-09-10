@@ -111,32 +111,78 @@ id      title      year     language        run_time
 ```
 
 `http_request for adding new movie`
-url: localhost:8000/movie/
-method:POST
-body:{title:"RRR",
-year:2025,
-language:"Telugu",
-run_time:180 
-}
+url: localhost:8000/movie/  
+method:POST  
+body:{title:"RRR",  
+year:2025,  
+language:"Telugu",  
+run_time:180   
+}  
 
 `http_request for list all movie`
-url: localhost:8000/movie/
-method:GET
-`http_request for fetching movie detail`
-url: localhost:8000/movie/3
-method:GET
+url: localhost:8000/movie/  
+method:GET  
+`http_request for fetching movie detail`  
+url: localhost:8000/movie/3  
+method:GET  
 
-`http_request for update movie`
-url:localhost:8000/movie/4
-method:PUT
-body:{
-    title:"Kgf4",
-    year:2025,
-    language:"Telugu",
-run_time:180
-}
+`http_request for update movie`  
+url:localhost:8000/movie/4  
+method:PUT  
+body:{  
+    title:"Kgf4",  
+    year:2025,  
+    language:"Telugu",  
+run_time:180  
+}  
 
 `http_request for delete movie`
 
-url:localhost:8000/movie/4
-method:DELETE
+url:localhost:8000/movie/4  
+method:DELETE  
+
+
+
+patients
+
+id patient_name phone_number assigned_doctor department     appointment_date   consultation_fee 
+  
+1    Anu          9876542319   Dr.Alice      Dermatology      2026-05-01         250.00
+
+2    Rahul        9976442319   Dr.Smith      Cardiology       2026-06-01         350.00
+
+3    Meera        9207542334   Dr.John       Neurology        2026-05-10         300.00
+
+`http_request for adding new patient`
+url: localhost:8000/patients/  
+method:POST  
+body:{patient_name:"Teena", 
+phone_number:"9207066221"
+assigned_doctor:"Dr.Smith"
+department:"Cardiology" 
+appointment_date:"2026-06-15"
+consultation_fee:350.00     
+}  
+
+`http_request for list all patients`
+url: localhost:8000/patients/  
+method:GET  
+`http_request for fetching patient detail`  
+url: localhost:8000/patients/2 
+method:GET  
+
+`http_request for update patient`  
+url:localhost:8000/patients/2   
+method:PUT  
+body:{patient_name:"Rahul" 
+phone_number:"9922562319"
+assigned_doctor:"Dr.Smith"
+department:"Cardiology"  
+appointment_date:"2026-08-01"
+consultation_fee:350.00 
+}  
+
+`http_request for delete patient`
+
+url:localhost:8000/patients/2  
+method:DELETE  
