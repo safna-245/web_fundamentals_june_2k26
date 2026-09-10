@@ -111,7 +111,32 @@ id      title      year     language        run_time
 ```
 
 `http_request for adding new movie`
+url: localhost:8000/movie/
+method:POST
+body:{title:"RRR",
+year:2025,
+language:"Telugu",
+run_time:180 
+}
+
 `http_request for list all movie`
+url: localhost:8000/movie/
+method:GET
 `http_request for fetching movie detail`
+url: localhost:8000/movie/3
+method:GET
+
 `http_request for update movie`
+url:localhost:8000/movie/4
+method:PUT
+body:{
+    title:"Kgf4",
+    year:2025,
+    language:"Telugu",
+run_time:180
+}
+
 `http_request for delete movie`
+
+url:localhost:8000/movie/4
+method:DELETE
