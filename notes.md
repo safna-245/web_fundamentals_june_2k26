@@ -147,7 +147,7 @@ patients
 
 |id|patient_name|phone_number|assigned_doctor|department|    appointment_date|  consultation_fee| 
   
-!1 |  Anu       |  9876542319|   Dr.Alice    |Dermatology|      2026-05-01   |     250.00       |
+|1 |  Anu       |  9876542319|   Dr.Alice    |Dermatology|      2026-05-01   |     250.00       |
 
 |2 |  Rahul     |  9976442319|  Dr.Smith     |Cardiology |      2026-06-01   |    350.00        |
 
