@@ -157,11 +157,12 @@ id patient_name phone_number assigned_doctor department     appointment_date   c
 
 url: localhost:8000/patients/   
 method:POST   
-body:{patient_name:"Teena",   
-phone_number:"9207066221"  
-assigned_doctor:"Dr.Smith"  
-department:"Cardiology"   
-appointment_date:"2026-06-15"  
+body:{  
+patient_name:"Teena",   
+phone_number:"9207066221",    
+assigned_doctor:"Dr.Smith",   
+department:"Cardiology",     
+appointment_date:"2026-06-15",    
 consultation_fee:350.00       
 }    
 
@@ -178,7 +179,8 @@ method:GET
 
 url:localhost:8000/patients/2     
 method:PUT   
-body:{patient_name:"Rahul",   
+body:{    
+patient_name:"Rahul",   
 phone_number:"9922562319",     
 assigned_doctor:"Dr.Smith",  
 department:"Cardiology",   
