@@ -147,11 +147,11 @@ patients
 
 |id|patient_name|phone_number|assigned_doctor|department|    appointment_date|  consultation_fee| 
   
-1    Anu          9876542319   Dr.Alice      Dermatology      2026-05-01         250.00
+!1 |  Anu       |  9876542319|   Dr.Alice    |Dermatology|      2026-05-01   |     250.00       |
 
-2    Rahul        9976442319   Dr.Smith      Cardiology       2026-06-01         350.00
+|2 |  Rahul     |  9976442319|  Dr.Smith     |Cardiology |      2026-06-01   |    350.00        |
 
-3    Meera        9207542334   Dr.John       Neurology        2026-05-10         300.00
+|3 |  Meera     | 9207542334|   Dr.John      |Neurology  |    2026-05-10     |   300.00         |
 
 `http_request for adding new patient`
 url: localhost:8000/patients/  
