@@ -113,10 +113,10 @@ id      title      year     language        run_time
 `http_request for adding new movie`
 url: localhost:8000/movie/  
 method:POST  
-body:{title:"RRR",  
-year:2025,  
-language:"Telugu",  
-run_time:180   
+body:{"title":"RRR",  
+"year":2025,  
+"language":"Telugu",  
+"run_time":180   
 }  
 
 `http_request for list all movie`
@@ -130,10 +130,10 @@ method:GET
 url:localhost:8000/movie/4  
 method:PUT  
 body:{  
-    title:"Kgf4",  
-    year:2025,  
-    language:"Telugu",  
-run_time:180  
+    "title":"Kgf4",  
+    "year":2025,  
+    "language":"Telugu",  
+    "run_time":180  
 }  
 
 `http_request for delete movie`
@@ -158,12 +158,12 @@ id patient_name phone_number assigned_doctor department     appointment_date   c
 url: localhost:8000/patients/   
 method:POST   
 body:{  
-patient_name:"Teena",   
-phone_number:"9207066221",    
-assigned_doctor:"Dr.Smith",   
-department:"Cardiology",     
-appointment_date:"2026-06-15",    
-consultation_fee:350.00       
+"patient_name":"Teena",   
+"phone_number":"9207066221",    
+"assigned_doctor":"Dr.Smith",   
+"department":"Cardiology",     
+"appointment_date":"2026-06-15",    
+"consultation_fee":350.00       
 }    
 
 `http_request for list all patients`  
@@ -180,12 +180,12 @@ method:GET
 url:localhost:8000/patients/2     
 method:PUT   
 body:{    
-patient_name:"Rahul",   
-phone_number:"9922562319",     
-assigned_doctor:"Dr.Smith",  
-department:"Cardiology",   
-appointment_date:"2026-08-01",  
-consultation_fee:350.00  
+"patient_name":"Rahul",   
+"phone_number":"9922562319",     
+"assigned_doctor":"Dr.Smith",  
+"department":"Cardiology",   
+"appointment_date":"2026-08-01",  
+"consultation_fee":350.00  
 }    
 
 `http_request for delete patient`
