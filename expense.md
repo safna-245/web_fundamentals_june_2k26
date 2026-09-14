@@ -8,12 +8,12 @@ id  title       amount  category    owner     payment_method
 url: localhost:8000/expenses/  
 method:POST  
 body:{  
-title:"Shirt",
-amount:350,
-category:"Shopping",
-owner:"Anu",
-payment_method:"UPI"  
-}  
+"title":"Shirt",  
+"amount":350,  
+"category":"Shopping",  
+"owner":"Anu",  
+"payment_method:""UPI"   
+}   
 
 `http_request for list all expense`
 url: localhost:8000/expenses/  
@@ -25,12 +25,12 @@ method:GET
 `http_request for update expense`  
 url:localhost:8000/expenses/2  
 method:PUT  
-body:{  
-title:"Pant",
-amount:450,
-category:"Shopping",
-owner:"Anu",
-payment_method:"UPI"   
+body:{   
+"title":"Pant",  
+"amount":450,  
+"category":"Shopping",  
+"owner":"Anu",  
+"payment_method":"UPI"     
 }  
 
 `http_request for delete expenses`
